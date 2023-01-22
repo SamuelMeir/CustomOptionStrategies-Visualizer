@@ -1,0 +1,87 @@
+       .banner {
+            background-color: #4351B0;
+            width: 100%;
+            height: 100%;
+            color: white;
+            font-family: Helvetica, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px 0;
+        }
+        .center {
+            margin: auto;
+            text-align: center;
+        }
+        .error-message {
+            color: red;
+            font-family: 'Courier New';
+            font-weight: bold;
+        }
+        .instructions {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #444;
+            margin: 0;
+        }
+        .examples {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .examples td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+
+        }
+        .examples td b {
+            color: navy;
+        }
+        .form-container {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 4px;
+            padding: 20px;
+        }
+        .form-container input[type="text"] {
+            width: 100%;
+            height: 40px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 0 10px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+        .form {
+            display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+  border: 2px solid navy;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+input[type="text"] {
+  width: 80%;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  width: 50%;
+  height: 40px;
+  background-color: navy;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
